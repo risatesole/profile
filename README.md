@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Henry Edilio Ramirez Chevalier - Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my skills, projects, and experience as a full-stack developer. Built with **Next.js**, **TypeScript**, and modern web technologies.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [About](#about)  
+- [Skills](#skills)  
+- [Projects](#projects)  
+- [Get in Touch](#get-in-touch)   
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Hi, I'm **Henry Edilio Ramirez Chevalier**, a full-stack developer passionate about building modern web, desktop, and backend applications.  
+I focus on **clean architecture**, **efficient systems**, and **practical solutions**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Based in the Dominican Republic.
 
-## Learn More
+## Skills
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** TypeScript, React, Next.js
+- **Backend:** TypeScript, Microservices, REST APIs, RabbitMQ, Apache Kafka, Python
+- **Databases:** SQL, PostgreSQL  
+- **ORMs:** Sequelize, Prisma  
+- **Desktop Apps:** Electron  
+- **Deployment & Automation:** Docker, Podman, CI/CD workflows, jest, n8n  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Discord Clone:** Web app built with Next.js and TypeScript, using Express.js, Prisma ORM, PostgreSQL, all deployed with Docker  
 
-## Deploy on Vercel
+## Get in Touch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [LinkedIn](https://www.linkedin.com/in/henryeramirezc/)  
+- [GitHub](https://github.com/risatesole)  
+- Email: henryedilio@gmail.com  

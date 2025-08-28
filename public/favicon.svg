@@ -1,0 +1,10 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top face -->
+  <polygon points="50,50 150,50 170,70 70,70" fill="#3399ff"/>
+  <!-- Left face -->
+  <polygon points="50,50 50,150 70,170 70,70" fill="#0066cc"/>
+  <!-- Right face -->
+  <polygon points="150,50 150,150 170,170 170,70" fill="#003366"/>
+  <!-- Bottom face -->
+  <polygon points="50,150 150,150 170,170 70,170" fill="#001f4d"/>
+</svg>

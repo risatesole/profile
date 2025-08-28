@@ -1,95 +1,89 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main className={styles.main}>
+      <section className={styles.hero}>
+<Image
+  src="/images/profile-picture.jpg"
+  alt="Henry Edilio Ramirez Chevalier"
+  width={250}
+  height={250}
+  className={styles.profilePicture}
+/>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
+
+        <h1>Hi! I&apos;m Henry</h1>
+        <p className={styles.tagline}>Full-Stack Developer • Problem Solver</p>
+      </section>
+
+      <section className={styles.section}>
+        <h2>About Me</h2>
+        <p>
+          I&apos;m <strong>Henry Edilio Ramirez Chevalier</strong>, a full-stack
+          developer passionate about building modern web, desktop, and backend
+          applications. I focus on <strong>clean architecture</strong>,{" "}
+          <strong>efficient systems</strong>, and{" "}
+          <strong>practical solutions</strong>.
+        </p>
+        <p>Based in the Dominican Republic.</p>
+      </section>
+
+      <section className={styles.section}>
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <strong>Frontend:</strong> TypeScript, React, Next.js
+          </li>
+          <li>
+            <strong>Backend:</strong> TypeScript, Microservices, REST APIs,
+            RabbitMQ, Apache Kafka, Python, Firebase (cloud functions and
+            serverless functions), supabase and platforms that supporurt
+            serverless functions like vercel.
+          </li>
+          <li>
+            <strong>Databases:</strong> SQL, PostgreSQL
+          </li>
+          <li>
+            <strong>ORMs:</strong> Sequelize, Prisma
+          </li>
+          <li>
+            <strong>Desktop Apps:</strong> Electron
+          </li>
+          <li>
+            <strong>Deployment & Automation:</strong> Docker, Podman, CI/CD,
+            jest, n8n
+          </li>
+        </ul>
+      </section>
+
+      <section className={styles.section}>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong>Discord Clone</strong> — Web app built with Next.js and
+            TypeScript, using Express.js, Prisma ORM, PostgreSQL, all deployed
+            with Docker
+          </li>
+        </ul>
+      </section>
+
+      <section className={styles.section}>
+        <h2>Get in Touch</h2>
+        <p>
+          <a href="https://www.linkedin.com/in/henryeramirezc/">LinkedIn</a>
+          <br />
+          <a href="https://github.com/risatesole">GitHub</a>
+          <br />
+          <a href="mailto:henry@edilio.dev">Email</a>
+        </p>
+      </section>
+
       <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        “I build practical solutions by combining modern tools with clean
+        architecture.”
       </footer>
-    </div>
+    </main>
   );
 }

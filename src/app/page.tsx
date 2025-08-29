@@ -1,18 +1,18 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
-<Image
-  src="/images/profile-picture.jpg"
-  alt="Henry Edilio Ramirez Chevalier"
-  width={250}
-  height={250}
-  className={styles.profilePicture}
-/>
-
+        <Image
+          src="/images/profile-picture.jpg"
+          alt="Henry Edilio Ramirez Chevalier"
+          width={250}
+          height={250}
+          className={styles.profilePicture}
+        />
 
         <h1>Hi! I&apos;m Henry</h1>
         <p className={styles.tagline}>Full-Stack Developer • Problem Solver</p>
@@ -62,9 +62,13 @@ export default function Home() {
         <h2>Projects</h2>
         <ul>
           <li>
-            <strong>Discord Clone</strong> — Web app built with Next.js and
-            TypeScript, using Express.js, Prisma ORM, PostgreSQL, all deployed
-            with Docker
+            <strong>
+              <Link href="https://github.com/risatesole/discord_like_platform">
+                Discord Clone
+              </Link>
+            </strong>{" "}
+            — Web app built with Next.js and TypeScript, using Express.js,
+            Prisma ORM, PostgreSQL
           </li>
         </ul>
       </section>
